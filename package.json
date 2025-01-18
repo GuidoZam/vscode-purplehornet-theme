@@ -33,5 +33,11 @@
 				"path": "./themes/Purple Hornet-color-theme.json"
 			}
 		]
+	},
+	"scripts": {
+		"install-vsce": "npm install -g vsce",
+		"package": "vsce package",
+		"create-publisher": "vsce create-publisher guidozam",
+		"publish": "vsce publish"
 	}
 }
