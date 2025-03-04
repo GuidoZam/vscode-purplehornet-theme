@@ -1,0 +1,43 @@
+{
+	"name": "purple-hornet-theme",
+	"displayName": "Purple Hornet Theme",
+	"description": "",
+	"version": "0.0.1",
+	"icon": "assets/purple-hornet_128x128.png",
+	"preview": true,
+	"publisher": "guidozam",
+	"license": "MIT",
+	"author": "Guido Zambarda",
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/guidozam/vscode-purplehornet-theme"
+	},
+	"maintainers": [
+		{
+			"name": "Guido Zambarda",
+			"email": "iamguidozam+theme@gmail.com",
+			"url": "https://iamguidozam.blog"
+		}
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Purple Hornet",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Purple Hornet-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"install-vsce": "npm install -g vsce",
+		"package": "vsce package",
+		"create-publisher": "vsce create-publisher guidozam",
+		"publish": "vsce publish"
+	}
+}
