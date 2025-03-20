@@ -4,3 +4,4 @@
 
 This is my first theme for Visual Studio Code and I've created it for my own personal use. It is a dark theme with purple and yellow accents. I have named it Purple Hornet because reasons 🤣. I hope you enjoy it!
 
+![Appearance of the theme in VSCode](assets/result.png)
